@@ -20,7 +20,6 @@ export default class Counter extends Component {
   }
 
   render() {
-    console.log("render counter");
     return(
       <div>
         <div onClick={this.tick.bind(this)}>
